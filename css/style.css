@@ -1,0 +1,65 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  max-width:100%;
+  max-height:100%;
+  padding-top:200px;
+  background-image:url("/img/background.jpg")
+}
+.calculator{
+  width:400px;
+  height:600px;
+  border:1px solid black;
+  margin:auto;
+  border-radius:20px;
+  background:black;
+}
+.display{
+  height:70px;
+  width:400px;
+}
+.mainDisplay{
+  height:100%;;
+  width:80%;
+  background:white;
+  margin: 2em auto;
+  border-radius:10px;
+}
+.container{
+  height:500px;
+  max-height:100%;
+  max-width:80%;
+  display:block;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:center;;
+  margin:auto;
+  padding-top:50px;
+  padding-bottom:90px;
+  position:relative;
+
+}
+.container>*{
+  width:70px;
+  height:70px;
+  border:1px solid black;
+  border-radius:100%;
+  background:white;
+  margin:auto;
+  text-align:center;
+  font-size:50px;
+  padding-top:.5rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
